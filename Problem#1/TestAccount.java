@@ -1,11 +1,11 @@
 public class TestAccount {
     public static void main(String[] args) {
-        // Create two accounts
+        // Created two accounts
         Account acc1 = new Account("A001", "Account 1", 5000);
         Account acc2 = new Account("A002", "Account 2", 4000);
 
         // Display initial balances
-        System.out.println("Initial balances:");
+        System.out.println("\nInitial balances:");
         System.out.println("Account 1 balance: $" + acc1.getBalance());
         System.out.println("Account 2 balance: $" + acc2.getBalance());
 
